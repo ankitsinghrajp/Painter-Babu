@@ -175,7 +175,7 @@ return (
       </section>
 
       {/* Best Paint Solutions by Mumbai Locality */}
-      <section className="bg-white rounded-3xl shadow-xl p-12">
+      <section className="bg-white rounded-3xl shadow-xl md:p-12 p-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
             Paint Needs by Locality in Mumbai

@@ -177,7 +177,7 @@ return (
       </section>
 
       {/* Best Paint Solutions by Bangalore Locality */}
-      <section className="bg-white rounded-3xl shadow-xl p-12">
+      <section className="bg-white rounded-3xl shadow-xl md:p-12 p-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
             Best Paint Solutions by Bangalore Locality
@@ -185,7 +185,7 @@ return (
         </div>
         
         <div className="overflow-x-auto">
-          <table className="w-full border-collapse">
+          <table className="w-full rounded-md border-collapse">
             <thead>
               <tr className="bg-gray-100">
                 <th className="text-left p-4 font-bold text-gray-800 border">Area</th>
