@@ -239,19 +239,19 @@ const Index = () => {
       </div>
 
        <div className="bg-gradient-to-r my-4 from-yellow-100 to-orange-100 p-6">
-                    <p className="text-lg text-gray-800">
-                      Whether it's a{" "}
-                      <strong className="text-yellow-700">1BHK flat</strong> or
-                      a{" "}
-                      <strong className="text-orange-700">
-                        multi-floor commercial building
-                      </strong>
-                      , we make your painting experience{" "}
-                      <strong className="text-red-700">
-                        affordable, professional, and hassle-free
-                      </strong>
-                      , first time painting in EMI.
-                    </p>
+                   <p className="text-lg max-w-6xl mx-auto text-gray-800 leading-relaxed">
+  <strong className="text-blue-700">India’s leading home and commercial painting service provider</strong>, offering 
+  <span className="text-green-700 font-semibold"> expert painting solutions</span> in 
+  <span className="text-purple-700 font-semibold"> Mumbai, Kolkata, Bangalore, Hyderabad, Indore, Vizag, and Raipur</span>.
+  <br />
+  Whether it’s a <strong className="text-red-600">1BHK flat</strong> or a 
+  <strong className="text-red-600"> multi-floor commercial building</strong>, we make your painting experience 
+  <span className="text-emerald-600 font-semibold"> affordable</span>, 
+  <span className="text-indigo-600 font-semibold"> professional</span>, and 
+  <span className="text-pink-600 font-semibold"> hassle-free</span>,
+  now with <strong className="text-orange-600 font-semibold underline">Easy EMI Options</strong>.
+</p>
+
                   </div>
       
     </Card>
@@ -397,16 +397,7 @@ const Index = () => {
             <Badge className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-2 text-base font-semibold mb-6">
               <Zap className="w-4 h-4 mr-2" />
               Why Choose Painterbabu
-            </Badge>
-             <p className="text-xl md:text-xl text-gray-700 mb-6 leading-relaxed">
-                    India's leading{" "}
-                    <strong className="text-gray-900 bg-yellow-100 px-2 py-1 rounded">
-                      home and commercial painting service provider
-                    </strong>
-                    , offering expert painting solutions across major cities.
-                  </p>
-
-                    
+            </Badge>        
           </div>
 
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">

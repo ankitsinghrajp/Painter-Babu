@@ -2,6 +2,7 @@ import { MapPin, Palette, Home, Droplets, Star, Award, Clock, Shield, CheckCircl
 import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import Navbar from '@/components/Navbar';
+import BangloreImage from "../assets/banglore-final-image.jpg"
 
 const BangaloreWeather = () => {
   
@@ -91,7 +92,7 @@ return (
     {/* Hero Section with Bangalore Image */}
     <section className="relative h-96 overflow-hidden">
       <img 
-        src="https://plus.unsplash.com/premium_photo-1733259755061-bb37882fc068?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src= {BangloreImage}
         alt="Beautiful view of Bangalore city with modern buildings and traditional architecture"
         className="w-full h-full object-cover"
       />

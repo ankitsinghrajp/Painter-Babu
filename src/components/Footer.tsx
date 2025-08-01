@@ -36,7 +36,7 @@ const Footer = () => {
 
  
   return (
-    <footer className="bg-[#333333] text-white">
+    <footer className="bg-[#624992] text-white">
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
             </div>
             
-            <p className="text-primary-foreground/80 leading-relaxed">
+            <p className="text-primary-foreground leading-relaxed">
               Transforming spaces with premium painting solutions. We bring luxury, quality, and professionalism to every project across India.
             </p>
 
@@ -80,7 +80,7 @@ const Footer = () => {
                 <Link
                   key={link.name}
                   to={link.path}
-                  className="block text-primary-foreground/80 hover:text-secondary transition-colors duration-300"
+                  className="block text-primary-foreground hover:text-secondary transition-colors duration-300"
                 >
                   {link.name}
                 </Link>
@@ -96,7 +96,7 @@ const Footer = () => {
                 <Link
                   key={city.name}
                   to={city.path}
-                  className="block text-primary-foreground/80 hover:text-secondary transition-colors duration-300"
+                  className="block text-primary-foreground hover:text-secondary transition-colors duration-300"
                 >
                   {city.name}
                 </Link>
@@ -112,7 +112,7 @@ const Footer = () => {
                 <Link
                   key={link.name}
                   to={link.path}
-                  className="block text-primary-foreground/80 hover:text-secondary transition-colors duration-300"
+                  className="block text-primary-foreground hover:text-secondary transition-colors duration-300"
                 >
                   {link.name}
                 </Link>
@@ -158,7 +158,7 @@ const Footer = () => {
 
             <button 
               onClick={handleWhatsApp}
-              className="btn-gold w-full mt-6"
+              className="btn-gold text-black/80 font-semibold w-full mt-6"
             >
               WhatsApp Enquiry
             </button>
@@ -170,17 +170,17 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/20">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-primary-foreground/80 text-sm">
+            <p className="text-primary-foreground text-sm">
               © {currentYear} Painter Babu. All rights reserved. Premium Painting Services Across India.
             </p>
             <div className="flex space-x-6 text-sm">
-              <Link to="/terms-conditions" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+              <Link to="/terms-conditions" className="text-primary-foreground hover:text-secondary transition-colors">
                 Terms & Conditions
               </Link>
-              <Link to="/refund-policy" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+              <Link to="/refund-policy" className="text-primary-foreground hover:text-secondary transition-colors">
                 Refund Policy
               </Link>
-              <Link to="/privacy-policy" className="text-primary-foreground/80 hover:text-secondary transition-colors">
+              <Link to="/privacy-policy" className="text-primary-foreground hover:text-secondary transition-colors">
                 Privacy Policy
               </Link>
             </div>

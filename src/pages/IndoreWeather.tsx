@@ -2,6 +2,7 @@ import { MapPin, Palette, Home, Droplets, Star, Award, Clock, Shield, CheckCircl
 import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import Navbar from '@/components/Navbar';
+import IndoreImage from '../assets/indore-railway-image2.jpg'
 
 const IndoreWeather = () => {
   
@@ -91,7 +92,7 @@ return (
     {/* Hero Section with Indore Image */}
     <section className="relative h-96 overflow-hidden">
       <img 
-        src="https://netscix2025.iiti.ac.in/wp-content/uploads/2024/08/indore-new-1024x353.jpg"
+        src= {IndoreImage}
         alt="Beautiful view of Indore city with modern buildings and traditional architecture"
         className="w-full h-full object-cover"
       />

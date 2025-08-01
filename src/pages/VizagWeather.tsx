@@ -2,6 +2,7 @@ import { MapPin, Palette, Home, Droplets, Star, Award, Clock, Shield, CheckCircl
 import Footer from '../components/Footer';
 import WhatsAppFloat from '../components/WhatsAppFloat';
 import Navbar from '../components/Navbar';
+import VizagImage from "../assets/vizag-rk-beach.jpg";
 
 const VizagWeather = () => {
   const vizagFoods = [
@@ -90,7 +91,7 @@ const VizagWeather = () => {
       {/* Hero Section with Vizag Image */}
       <section className="relative h-96 overflow-hidden">
         <img 
-          src="https://assets.thehansindia.com/h-upload/feeds/2019/05/10/173219-vizag.jpg"
+          src= {VizagImage}
           alt="Beautiful coastal view of Vizag with beaches and modern architecture"
           className="w-full h-full object-cover"
         />

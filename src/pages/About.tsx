@@ -108,6 +108,11 @@ const About = () => {
                     </p>
                      <p className="text-lg text-black/90 leading-relaxed group-hover:text-foreground transition-colors duration-300">
                       Our dedicated and experienced team is largely helpful in our success as a painting services provider. It is the willingness and readiness of our workforce that has made us a foremost organization in this domain.
+                      The commitment of our team is reflected on the customer appreciation that has been nurturing us from
+the very beginning.
+                    </p>
+                    <p className="text-lg text-black/90 leading-relaxed group-hover:text-foreground transition-colors duration-300">
+                      Our service is available in <strong className="text-blue-900">Pune, Raipur, Indore, Hyderabad, Visakhapatnam, Bangalore &amp; Mumbai. </strong>
                     </p>
                     </div>
                   </div>

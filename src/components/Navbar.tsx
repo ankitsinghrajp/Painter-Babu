@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-[#333333] text-primary-foreground py-2 px-4">
+      <div className="bg-[#624992] text-primary-foreground py-2 px-4">
         <div className="container mx-auto flex justify-between items-center text-sm">
           <div className="flex items-center space-x-4">
             <div className="flex items-center">
@@ -55,7 +55,7 @@ const Navbar = () => {
           </div>
           <button 
             onClick={handleWhatsApp}
-            className="btn-gold text-black text-xs py-2 shadow-md shadow-black/20 font-bold px-3 hover:scale-105"
+            className="btn-gold text-black/80 text-xs py-2 shadow-md shadow-black/20 font-bold px-3 hover:scale-105"
           >
             Quick Enquiry
           </button>
